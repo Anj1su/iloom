@@ -1,0 +1,491 @@
+/**/
+
+@media screen and (max-width:1600px){
+    /*header*/
+    #navbar{
+        width: 100%;
+    }
+    .navb{
+        right: 0;
+    }
+    #nav >li >a{
+        color: #fff;
+        margin: 0 1rem;
+        font-size: 17px;
+    }
+    /*main*/
+    .section-1{
+        width: 1200px;
+    }
+    .section-1>div>div{
+        font-size: 24px;
+    }
+    .section-1>div>div>h3{
+        font-size: 20px;
+    }
+    .tabMenu>li{
+        font-size: 18px;
+    }
+    .tabCon>li>.recommend-img{
+        width: 60%;
+        margin-left: 7%;
+    }
+    .product{
+        height: 1000px;
+    }
+    .product-part01>.product-direct{
+        width: 100%;
+    }
+    .product .product-part02{
+        width: 1200px;
+        height: 600px;
+    }
+    .product .product-part02>.pick-img{
+        height: 100%;
+    }
+    .product .product-part02>div:first-child{
+        height: 0%;
+    }
+    .product .product-part02>div:first-child>img{
+        position: absolute;
+        top: -40px;
+        left: -50px;
+        width: 100px;
+    }
+    .pick-in li{
+        padding: 10px;
+    }
+    .pimg div{
+        margin-bottom: 5px;
+    }
+    .pimg h4{
+        font-size: 18px;
+    }
+    .pimg p{
+        font-size: 15px;
+    }
+    .pimg> img{
+        height: 280px;
+    }
+    .vr{
+        margin-top: 12rem;
+    }
+    .vr-back{
+        width: 1200px;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .vr-back>a>img{
+        width: 340px;
+    }
+    .vr-Warp{
+        width: 1200px;
+    }
+    .vr-Warp>.vr-in>p{
+        font-size: 20px;
+    }
+    .vr-Warp>.vr-in>div>h3{
+        font-size: 16px;
+    }
+    .event{
+        width: 1200px;
+        margin: 20px auto;
+    }
+    .event>ul>li>a{
+        width: 390px;
+        margin: 0 10px;
+        height: 500px;
+    }
+    .event>ul>li>a>img{
+        height: 500px;
+    }
+    .myiloom>.myiloomTop p{
+        font-size: 18px;
+    }
+    .myiloom-logo>img{
+        width: 230px;
+        height: 50px;
+    }
+    .star>span>img{
+        width: 21px;
+    }
+    .myiloom>.myiloom-in>.review-in>div:first-child >a h5{
+        font-size: 18px;
+    }
+    .myiloom>.myiloom-in>.review-in>div:first-child >a img{
+        width: 22px;
+    }
+    .myiloom>.myiloom-in>.review-in>div:first-child p{
+        font-size: 16px;
+    }
+    .myiloom>.myiloom-in>.review-in .review-product{
+        width: 88%;
+    }
+    .review-prod-txt >div:first-child >h4{
+        font-size: 16px;
+    }
+    .review-prod-txt >div:first-child >p{
+        font-size: 14px;
+    }
+    .heartButton>span{
+        font-size: 14px;
+    }
+    .myiloom>.myiloom-in02>.review-in{
+        width: 52%;
+    }
+    .myiloom>.myiloom-in02>.review-in>div>p{
+        width: 80%;
+    }
+    .event-point{
+        width: 1030px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .instaWarp{
+        height: 450px;
+    }
+    .insta-img>ul>li>a>img{
+        width: 190px;
+    }
+    .quickMenu>.quick-in ul li{
+        width: 330px;
+    }
+    .noti-tit h2{
+        margin-bottom: 60px;
+    }
+    .notice-in{
+        font-size: 17px; 
+    }
+
+    footer>.foo-top{
+        width: 1100px;
+    }
+    footer>.foo-bottom{
+        width: 1100px;
+    }
+}
+@media screen and (max-width:1400px){
+     /*main*/
+     .section-1{
+        width: 1000px;
+        height: 210px;
+    }
+    .lifestyle{
+        padding: 6rem 0;  
+    }
+    .tabMenu{
+        bottom: -65px;  
+    }
+    .tabCon{
+        height: 530px; 
+    }
+    .tabCon>li{
+        width: 1150px;
+    }
+    .tabCon>li>.recommend-img{
+        height: 480px;
+    }
+    .recommend-img>img{
+        height: 480px;
+        top: 5%; 
+    }
+    .tabCon>li>.recommend{
+        padding: 150px 0px;
+    }
+    .tabCon>li>.recommend>h3{
+        font-size: 24px;
+    }
+    .tabCon>li>.recommend>p{
+        margin-top: 17px;
+        width: 300px;
+    }
+    .product{
+        height: 900px;
+    }
+    .product-part01>.product-direct{
+        width: 100%;
+    }
+    .product .product-part02{
+        margin: 3rem auto;  
+    }
+    .product .product-part02>div:first-child{
+        display: none;
+    }
+    .product .product-part02>.pick-img{
+        display: none;
+    }
+    .pick-in{
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .pimg div{
+        height: 150px;
+    }
+    .pimg{
+        height: 450px;
+    }
+    .pimg:nth-child(2)> img{
+        width: 400px;
+    }
+    .pimg> img{
+        height: 250px;
+        padding-top: -40px;
+        margin-left: 340px;
+        transform: scale(1.2);
+    }
+    .vr{
+        margin-top: 8rem;
+    }
+    .vr-back{
+        width: 85%;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .vr-Warp{
+        width: 85%;
+    }
+    .myiloom>.myiloom-in{
+        width: 1000px;
+    }
+    .myiloom>.myiloom-in>.review-img{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .myiloom>.myiloom-in>.review-in{
+        width: 50%;
+        padding: 10px 20px;
+    }
+    
+    .review-prod-txt{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .review-prod-txt >div:first-child{
+        width: 80%;
+    }
+    .review-prod-txt >.heartButton{
+        width: 16%;
+    }
+    .insta-img>ul>li>a{
+        padding: 0 7px;
+    }
+    .insta-img>ul>li:first-child{
+        display: none;
+    } 
+    .insta-img>ul>li:last-child{
+        display: none;
+    }
+    .insta-img>ul>li>a>img{
+        width: 220px;
+    }
+    .quickMenu{
+        width: 1100px;
+    }
+    .quickMenu>.quick-in ul li{
+        width: 320px;
+    }
+    .notice{
+        width: 1000px;
+        height: 600px;
+    }
+    .notice-in{
+        width: 50vw;
+    }
+    footer{
+        height: 400px;
+    }
+    footer>.foo-top{
+        height: 250px;
+        width: 1050px;
+    }
+    footer>.foo-top >.advice>ul>li:last-child>p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer>.foo-top >.advice>ul>li:last-child>h5{
+        margin-top: -8px;
+    }
+    footer>.foo-bottom{
+        width: 1050px;
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width:1200px){
+    .navb{
+        right: 3%;
+    }
+    .slide{
+        text-align: center;
+    }
+    .slide:nth-child(1)>.slide__content{
+        margin-left: 150px;
+    }
+    .slide:nth-child(1) .slide__bg{
+        left: 0;
+        background-position: center;
+    }
+    .slide:nth-child(4) .slide__bg{
+        /* left: -156%; */
+        background-position: center;
+    }
+    .slide:nth-child(6) .slide__bg{
+        /* left: -255%; */
+        background-position: center;
+    }
+    .slide__text{
+        position: relative;
+        width: 700px;
+        height: 300px;
+    }
+    .slide__text-heading{
+        line-height: 3.5rem;
+        width: 700px;
+        margin-bottom: 1.2rem;
+    }
+    .slide__text-desc{
+        width: 700px;
+        line-height: 1.5rem;
+        font-size: 17px;
+    }
+    .butt{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 170px;
+        font-size: 14px;
+    }
+    /*main*/
+    .section-1{
+        width: 800px;
+        height: 210px;
+    }
+    .tabCon>li>.recommend-img{
+        width: 60%;
+        margin-left: 5%;
+    }
+    .product-part01>.product-direct{
+        width: 100%;
+        height: 110px;
+    }
+    .product .product-part02{
+        width: 800px;
+        margin-left: 10px;
+    }
+    .vr-back{
+        width: 80%;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .vr-back>a>img{
+        width: 320px;
+    }
+    .vr-Warp{
+        width: 80%;
+    }
+    .event{
+        position: relative;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .event>ul{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .event>ul>li:first-child{
+        display: none;
+    }
+    .event>ul>li>a{
+        width: 450px;
+        margin: 0 10px;
+        height: 600px;
+    }
+    .event>ul>li>a>img{
+        height: 560px;
+    }
+    .myiloom{
+        margin: 0;
+    }
+    .myiloom>.myiloom-in{
+        width: 950px;
+        margin-left: 70px;
+        height: 340px;
+    }
+    .myiloom>.myiloom-in01{
+        margin-bottom: 0px;
+    }
+    .myiloom>.myiloom-in>.review-img{
+        width: 45%;
+    }
+    .myiloom>.myiloom-in>.review-in01{
+        width: 50%;
+        padding: 10px 30px;
+        margin-left: 20px;
+    }
+    .myiloom>.myiloom-in>.review-in .review-product{
+        width: 100%;
+    }
+    .review-prod-txt{
+        width: 65%;
+    }
+    .myiloom-in02 .review-prod-txt >.heartButton{
+        width: 43px;
+    }
+    .myiloom>.myiloom-in>.review-img>img{
+        margin-top: -80px;
+    }
+    .myiloom>.myiloom-in02>.review-in>div>p{
+        width: 98%;
+    }
+    .event-point{
+        width: 100%;
+    }
+    .event-point>a>img{
+        border-radius: 0px;
+    }
+    .insta-img>ul>li:nth-child(2){
+        display: none;
+    } 
+    .insta-img>ul>li>a>img{
+        width: 210px;
+    }
+    .quickMenu{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .quickMenu>.quick-in ul li{
+        width: 270px;
+    }
+    .notice{
+        width: 100%;
+        height: 550px;
+    }
+    .notice-in{
+        width: 50vw;
+    }
+    footer{
+        height: 400px;
+    }
+    footer>.foo-top{
+        width: 900px;
+        height: 230px;
+    }
+    footer>.foo-bottom{
+        width: 900px;
+        padding-bottom: 0;
+    }
+    footer>.foo-top >.advice{
+        margin-left: -20px;
+    }
+    footer>.foo-top >.advice >ul>li:last-child>span:last-child{
+        width: 150px;
+    }
+    footer>.foo-top >.advice>ul>.center>span:last-child>p{
+        font-size: 12px;
+        display: none;
+    }
+    footer>.foo-top >.advice>ul>.center>span:last-child>h5{
+        margin-top: -8px;
+    }
+}

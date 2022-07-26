@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+  <title>일룸</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/illom_favicon.ico">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/reactive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+</head>
+
+<body>
+  <div class="vrCursor"></div>
+  <div class="drag"></div>
+
+  <header>
+    <nav>
+      <div id="navbar" class="navbar">
+        <div class="logo">
+          <img src="./images/svg/logo.svg" alt="logo">
+        </div>
+        <div class="navb">
+          <ul id="nav">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">주문/배송</a></li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">매장안내</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <article id="main">
+    <div class="slider-container">
+      <div class="slider-control left inactive"></div>
+      <div class="slider-control right"></div>
+      <ul class="slider-pagi"></ul>
+      <div class="slider">
+        <div class="slide slide-0 active">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <div class="slide__text">
+              <p class="slide__text-desc">더 좋은 매일을 위해</p>
+              <h1 class="slide__text-heading">이것만큼은 일룸으로</h1>
+              <button class="butt">자세히 살펴보기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-1 ">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <div class="slide__text">
+              <p class="slide__text-desc"><small>밴쿠버 천연가죽 컴팩트</small></p>
+              <h1 class="slide__text-heading">VANCOUVER</h1>
+              <p class="slide__text-desc ">심플하고 세련된 디자인과  컴팩트한 사이즈는<br>당신이 꿈꾸던 미니멀한 거실 인테리어를 완성해줍니다. </p>
+              <button class="butt">자세히 살펴보기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-2">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <div class="slide__text">
+              <h1 class="slide__text-heading">ONNOT</h1>
+              <p class="slide__text-desc">슬림한 디자인의 원형 테이블로 만드는 나만의 홈카페, 오노트</p>
+              <button class="butt">자세히 살펴보기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-3">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <div class="slide__text">
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-4">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <div class="slide__text">
+              <p class="slide__text-desc"><small>EVENT</small></p>
+              <p class="slide__text-desc">키즈 모션데스크 제롬</p>
+              <h1 class="slide__text-heading">세계 3대 디자인 어워드 <br>기념 프로모션</h1>
+              <button class="butt">자세히 살펴보기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-5 ">
+          <div class="slide__bg">
+          </div>
+          <div class="slide__content">
+            <div class="slide__text">
+              <h1 class="slide__text-heading">BASEL</h1>
+              <p class="slide__text-desc">우리 집에서 맞이하는 화이트 무드 호텔 침실, 바젤 시리즈</p>
+              <button class="butt">자세히 살펴보기</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </article>
+  
+  <article class="lifestyle">
+    <h6>lifestyle</h6>
+    <div class="section-1">
+      <div>
+        <div>
+          가치 있는 당신의 일상을 위한<br>
+          취향에 딱 맞는 인테리어 디자인을 만나보세요.
+          <h3>Lifestyle design beyond material</h3>
+        </div>
+        <ul class="tabMenu">
+          <li class="on" id="modtxt"> Modern</li>
+          <li id="cozytxt"> Cozy</li>
+          <li id="natutxt"> Natural</li>
+          <li id="clatxt"> Classic</li>
+        </ul>
+      </div>
+    </div>
+    <ul class="tabCon">
+      <li id="modern">
+        <div class="recommend-img">
+          <img src="./images/modern.png" alt="MODERN">
+        </div>
+        <div class="recommend">
+          <h3>MODERN</h3>
+          <p>내추럴한 우드톤으로 아늑한 분위기를<br> 연출하며 곡선형 헤드보드와 아이보리 컬러 포인트로 심플하면서도 모던한 공간을<br>만들어 줍니다.</p>
+          <button>자세히 살펴보기</button>
+        </div>
+      </li>
+      <li id="cozy">
+        <div class="recommend-img">
+          <img src="./images/cozy.png" alt="CUSINO">
+        </div>
+        <div class="recommend">
+          <h3>CUSINO</h3>
+          <p>가족 생애주기에 따라 변화하는 패밀리<br> 침실 시리즈입니다. 밝고 내추럴한 분위기의<br>가구가 가족이 함께 잠드는 여유있고 포근한<br> 패밀리 침실을 만들어 줍니다.</p>
+          <button>자세히 살펴보기</button>
+        </div>
+      </li>
+      <li id="natural">
+        <div class="recommend-img">
+          <img src="./images/natural.png" alt="MIEL GALLERY">
+        </div>
+        <div class="recommend">
+          <h3>MIEL GALLERY</h3>
+          <p>자연에 있는 듯한 쾌적함과 휴식이 느껴지는 내추럴스타일의 침실 시리즈 입니다.<br>자연스러운 나뭇결이 느껴지는 원목을 사용하며, 절제된 라인의 디자인으로 침실을 한층 고급스럽고 로맨틱하게 연출해 줍니다.</p>
+          <button>자세히 살펴보기</button>
+        </div>
+      </li>
+      <li id="classic">
+        <div class="recommend-img">
+          <img src="./images/classic.png" alt="ICARIA">
+        </div>
+        <div class="recommend">
+          <h3>ICARIA</h3>
+          <p>고급스러운 소재와 섬세한 디테일로 꾸며진 모던 클래식 스타일 침실 시리즈입니다.<br>각도를 자유롭게 조절 할 수 있는 모션베드와 함께하는 스마트한 침실 라이프를 한층 고급스러운 분위기 속에서 누려보세요.</p>
+          <button>자세히 살펴보기</button>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="product">
+    <h6>product</h6>
+    <div class="product-part01">
+      <h2>Recommend Product</h2>
+      <div class="product-direct">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/svg/bedRoom.svg" alt="침실">
+              <p>침실</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/livingRoom.svg" alt="거실">
+              <p>거실</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/kitchen.svg" alt="주방">
+              <p>주방</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/KidsRoom.svg" alt="키즈룸">
+              <p>키즈룸</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/room.svg" alt="학생방">
+              <p>학생방</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/study.svg" alt="서재">
+              <p>서재</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/svg/pet.svg" alt="펫">
+              <p>펫</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="product-part02">
+      <div>
+        <img src="./images/teary's_pick.png" alt="태리's Pick">
+      </div>
+      <div class="pick-img">
+      </div>
+      <div class="pick-in">
+        <ul>
+          <li>
+            <a class='show on'>SOFA</a>
+            <div class="pimg pick-in-on">
+              <div>
+                <h4>스노우 3인 가죽소파</h4>
+                <p>
+                  양쪽 등판의 날렵함과 슬림한 다리가 돋보이는<br> 미드백 소파로 디자인과 편안함 모두 만족시켜줍니다.
+                </p>
+              </div>
+              <img src="./images/pick-sofa.png" alt="스노우3인 가죽소파">
+            </div>
+          </li>
+          <li>
+            <a class='show'>TABLE</a>
+            <div class="pimg">
+              <div>
+                <h4>레마 800폭 원형테이블</h4>
+                <p>좁은 공간을 여유롭게 사용할 수 있는<br>아기자기한 사이즈로  아늑한 다이닝 공간을 꾸며보세요.
+                </p>
+              </div>
+              <img src="./images/pick-table.png" alt="레마 800폭 원형테이블">
+            </div>
+          </li>
+          <li>
+            <a class='show'>STORAGE CLOSET</a>
+            <div class="pimg">
+              <div>
+                <h4>1000폭 레마 카페장</h4>
+                <p>
+                  다양한 수납이 가능한 실용적이면서도 감성적인<br> 디자인으로 공간에 따뜻한 느낌을 불어넣어줍니다.
+                </p>
+              </div>
+              <img src="./images/pick-storageCloset.png" alt="1000폭 레마 카페장">
+            </div>
+          </li>
+          <li>
+            <a class='show'>WIDE CHEST</a>
+            <div class="pimg">
+              <div>
+                <h4>그라나다 와이드체스트 1200폭 화장대형</h4>
+                <p>
+                  호텔 가구 느낌의 모던하고 슬림한 <br>디자인으로 공간을 트렌디하게 변화시켜 보세요.
+                </p>
+              </div>
+              <img src="./images/pick-table2.png" alt="그라나다 와이드체스트 1200폭 화장대형">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="vr">
+    <h6>VR</h6>
+    <div class="vr-back">
+      <a href="#">
+        <img src="./images/vrimg/vr1.png" alt="">
+      </a>
+    </div>
+    <div class="vr-Warp">
+      <div class="vr-in">
+        <p>
+          <span>디지털 VR 쇼룸</span>을 통해<br>
+          언제 어디서나 일룸 매장을 만나보세요
+        </p>
+        <div>
+          <h3>지금 방문하기</h3>
+          <img src="./images/svg/arrow-vr.svg" alt="지금 방문하기">
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="event">
+    <h6>event</h6>
+    <ul>
+      <li><a href="#"><img src="./images/event.jpg" alt="이벤트 바로가기"></a></li>
+      <li><a href="#"><img src="./images/lifestyle.jpg" alt="라이프 스타일 보기"></a></li>
+      <li><a href="#"><img src="./images/review.jpg" alt="리뷰 보러가기"></a></li>
+    </ul>
+  </article>
+
+  <article class="myiloom">
+    <div class="myiloomTop">
+      <div class="myiloom-logo">
+        <img src="./images/svg/myiloomLogo.svg" alt="#나의 일룸생활">
+      </div>
+      <p> 일룸으로 달라진 특별한 생활을 만나보세요</p>
+      <h5> | </h5>
+    </div>
+    <div class="myiloom-in myiloom-in01">
+      <a href="#" class="review-img">
+        <img src="./images/review01.jpg" alt="리뷰 이미지">
+      </a>
+      <div class="review-in review-in01">
+        <div>
+          <div class="star">
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+          </div>
+          <a href="#"><h5>윤정하님의 일룸생활</h5><img src="./images/svg/arrow-right.svg" alt=""></a>
+          <p>요즘 일룸 홀릭입니다~~! 아기 옷장도 바꾸려구요.<br> 오늘도 내일도 일룸할래요🤍</p>
+        </div>
+        <div class="review-product">
+          <div class="review-prod">
+            <a href="#"></a>
+          </div>
+          <div class="review-prod-txt">
+           <div>
+              <h4>코너형 리딩하우스</h4>
+              <p>키즈룸</p>
+              <p>159,000 원</p>
+           </div>
+           <div class="heartButton">
+             <span>10</span>
+             <div class="heB">
+                <img src="./images/svg/heart.svg" alt="코너형 리딩하우스 좋아요">
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="myiloom-in myiloom-in02">
+      <div class="review-in">
+        <div>
+          <div class="star">
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+            <span><img src="./images/svg/star.svg" alt="인기도"></span>
+          </div>
+          <a href="#"><h5>이소현님의 일룸생활</h5><img src="./images/svg/arrow-right.svg" alt=""></a>
+          <p>결혼 할 때부터 어른 침대 프레임도 쿠시노로 선택하고 싶을 만큼 완벽한 침대라 신혼 침대나 아기침대가 고민이시면 꼭 구입해보시라고...</p>
+        </div>
+        <div class="review-product">
+          <div class="review-prod review-prod02">
+            <a href="#"></a>
+          </div>
+          <div class="review-prod-txt">
+           <div>
+              <h4>저상형 침대 - 데이베드형</h4>
+              <p>침실</p>
+              <p>1,056,000 원</p>
+           </div>
+           <div class="heartButton">
+             <span>27</span>
+             <div class="heB">
+                <img src="./images/svg/heart.svg" alt="코너형 리딩하우스 좋아요">
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="review-img">
+        <img src="./images/review02.jpg" alt="리뷰 이미지">
+      </a>
+    </div>
+    <div class="event-point">
+      <a href="#"><img src="./images/point.png" alt="카톡 플친하면 2,000원 적립금 선물 바로가기"></a>
+    </div>
+  </article>
+
+  <article class="instaWarp">
+    <div class="main-insta">
+      <h2>INSTAGRAM</h2>
+      <P>#방꾸미기 #홈카페인테리어 #신혼집꾸미기</P>
+      <div class="insta-img">
+        <ul>
+          <li><a href="#"><img src="./images/insta01.png" alt="POODLE SOFA 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta02.png" alt="바젤 침대 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta03.png" alt="로이모노 기획전 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta04.png" alt="KEENE BUNK BED 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta05.png" alt="'펫스텝' 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta06.png" alt="부모님을 위한 선물 모음 '집' 게시물로 바로가기"></a></li>
+          <li><a href="#"><img src="./images/insta07.png" alt="일룸 화장대 BEAU:SC(뷰스크) 게시물로 바로가기"></a></li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="quickMenu">
+    <div class="quick-tit">
+      <h2>QUICK MENU</h2>
+    </div>
+    <div class="quick-in">
+      <ul>
+        <li>
+          <div class="consulting">
+            <img class="door" src="./images/svg/quick-consulting1.svg" alt="공간제안 서비스 아이콘">
+          </div>
+          <p>Consulting</p>
+          <p>공간제안 서비스</p>
+        </li>
+        <li>
+          <div class="store">
+            <img src="./images/svg/quick-store1_1.svg" alt="매장안내 아이콘">
+            <img src="./images/svg/quick-store1.svg" alt="매장안내 아이콘">
+          </div>
+          <p>Store</p>
+          <p>매장 안내</p>
+        </li>
+        <li>
+          <div class="refurb">
+            <img src="./images/svg/quick-refurb1.svg" alt="전시품 판매 아이콘">
+            <span class="line-draw"></span>
+          </div>
+          <p>Refurb</p>
+          <p>전시품 판매</p>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <article class="notice">
+    <div class="noti-tit">
+      <h2>NOTICE</h2>
+    </div>
+    <div class="notice-in">
+      <ul>
+        <li><a href="#">일룸 서비스센터 홈페이지 오픈<span>2021.09.07</span></a></li>
+        <li><a href="#">일룸 소식을 구독하는 방법 A to Z<span>2020.06.05</span></a></li>
+        <li><a href="#">2022년 5월 무이자 할부 안내<span>2022.05.02</span></a></li>
+        <li><a href="#">2022년 5월 네이버 페이 시스템 점검 일정 안내<span>2022.05.03</span></a></li>
+      </ul>
+    </div>
+    <div class="noticeBtn">
+      <a href="#">더 보러가기</a>
+    </div>
+  </article>
+
+  <footer>
+    <div class="foo-top">
+      <div>
+        <a href="#"><img src="./images/footer-logo.png" alt="하단로고"></a>
+      </div>
+      <div>
+        <h5>ABOUT</h5>
+        <p>회사소개</p>
+        <p>매장안내</p>
+        <p>인재채용</p>
+      </div>
+
+      <div>
+        <h5>SUPPORT</h5>
+        <p>고객지원</p>
+        <p>서비스센터</p>
+        <p>대리점 개설안내</p>
+      </div>
+
+      <div>
+        <h5>INFO</h5>
+        <p>이용약관</p>
+        <h5>개인정보 처리방침</h5>
+      </div>
+
+      <div class="advice">
+        <ul>
+          <li><span>빠른 상담문의</span><a href="#">챗봇상담</a></li>
+          <li><span>서비스 문의 및 신청</span><a href="#">일룸 서비스센터 바로가기</a></li>
+          <li class="center">
+              <span>고객센터 전화문의</span>
+              <h5>1577-5670</h5>
+              <p>평일 9:30 ~17:30(점심시간 12:30 ~ 13:30)<br>
+              토요일 9:30 ~ 12:30(쇼핑몰 구매상담 제외)</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foo-bottom">
+      <div class="sns">
+        <ul>
+          <li><a href="#"><img src="./images/sns-in.png" alt="인스타그램 바로가기"></a></li>
+          <li><a href="#"><img src="./images/sns-fa.png" alt="페이스북 바로가기"></a></li>
+          <li><a href="#"><img src="./images/sns-b.png" alt="네이버 블로그 바로가기"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <ul>
+          <li>Copyright (c) 2018 iloom lnc. All rights reserved</li>
+          <li>본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</li>
+        </ul>
+      </div>
+      <div class="mark">
+        <ul>
+          <li><img src="./images/mark_1.png" style="width: 102px; height: 37px;" alt="noton"></li>
+          <li><img src="./images/mark_2.png" style="width: 42px; height: 33px;" alt="cash"></li>
+          <li><img src="./images/mark_3.png" style="width: 45px; height: 33px;" alt="escrow"></li>
+          <li><img src="./images/mark_4.png" style="width: 45px; height: 39px;" alt="정보보호 관리체계(ISMS) 인증서"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <article class="side_nav">
+    <h6>side navigation</h6>
+    <div>
+      <input type="checkbox" class="side_navToggle" />
+      <a class="side_navButton" href="#"></a>
+      <ul class="side_navbtns">
+        <li><a href="#" title="챗봇"></a></li>
+        <li><a href="#" title="리뷰"></a></li>
+        <li><a href="#" title="검색하기"></a></li>
+        <li><a href="#" class="네이버블로그"></a></li>
+      </ul>
+    </div>
+  </article>
+
+  <div class="modalWarp">
+    <div class="lickModal">
+      <p>
+        로그인이 필요합니다.<br>
+        로그인 하시겠습니까? 
+      </p>
+      <div class="modalBtn">
+        <button class="yes">예</button>
+        <button class="no">아니요</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  <script src="./script/script.js"></script>
+  <script>
+    $('div .show').click(function() {
+
+      $('.pimg').slideUp(300);
+      if ($(this).next().is(':hidden') == true) {
+        $(this).next().slideDown(300);
+      }
+      $('.show').toggleClass('selected');
+    });
+    $('.pimg').hide();
+    $('.pick-in-on').show();
+
+    	$.fn.jQuerySimpleCounter = function( options ) {
+    	    var settings = $.extend({
+    	        start:  0,
+    	        end:    100,
+    	        easing: 'swing',
+    	        duration: 400,
+    	        complete: ''
+    	    }, options );
+
+    	    var thisElement = $(this);
+
+    	    $({count: settings.start}).animate({count: settings.end}, {
+    			duration: settings.duration,
+    			easing: settings.easing,
+    			step: function() {
+    				var mathCount = Math.ceil(this.count);
+    				thisElement.text(mathCount);
+    			},
+    			complete: settings.complete
+    		});
+    	};
+
+    $('#1').jQuerySimpleCounter({end: 9894,duration: 1000});
+    $('#2').jQuerySimpleCounter({end: 557,duration: 1000});
+    $('#3').jQuerySimpleCounter({end: 159,duration: 1000});
+    $('#4').jQuerySimpleCounter({end: 246,duration: 1000});
+
+    //top
+
+    $( '.top' ).click( function() {
+      $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+      return false;
+    } );
+
+    const vr = document.querySelector(".vrCursor");
+
+    document.addEventListener("mousemove", (e) => {
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+        vr.style.left = mouseX + 'px';
+        vr.style.top = mouseY + 'px';
+    });
+  </script>
+
+</body>
+
+</html>
